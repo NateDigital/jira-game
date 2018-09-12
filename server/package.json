@@ -1,12 +1,13 @@
 {
   "name": "jira-game",
   "version": "1.0.0",
-  "description": "",
+  "description": "Jira Game Server",
+  "author": "Nathan Pickworth",
+  "repository": "https://github.com/NateDigital/jira-game",
   "main": "server.js",
   "scripts": {
-    "start": "ts-node src/server.ts"
+    "start": "ts-node src/server.ts || cat /app/.npm/_logs/*"
   },
-  "author": "Nathan Pickworth",
   "license": "UNLICENCED",
   "dependencies": {
     "axios": "^0.18.0",
