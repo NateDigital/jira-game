@@ -1,7 +1,9 @@
 # Jira Game
 
 Master: [![CircleCI](https://circleci.com/gh/NateDigital/jira-game/tree/master.svg?style=svg)](https://circleci.com/gh/NateDigital/jira-game/tree/master) 
-Develop: [![CircleCI](https://circleci.com/gh/NateDigital/jira-game/tree/master.svg?style=svg)](https://circleci.com/gh/NateDigital/jira-game/tree/develop)
+
+Develop: [![CircleCI](https://circleci.com/gh/NateDigital/jira-game/tree/develop.svg?style=svg)](https://circleci.com/gh/NateDigital/jira-game/tree/develop)
+
 
 
 A quick and dirty hack which has gone further than it should of.
@@ -32,6 +34,7 @@ It is far from perfect, so please feel free to submit a PR against the develop b
  - cache the scores so they don't need to be fetched each time
  - github integration
  - better error handling
+ - unit tests
  - optimise/reduce the amount of jira queries
  - make a logo and a better name
  - websockets for score updates
@@ -42,7 +45,7 @@ It is far from perfect, so please feel free to submit a PR against the develop b
    - keeping track of scores for past sprints
    - plotting score line graphs etc. for each player
  - slack or email integration
- - configuraable ui stuff like jira endpoint, etc
+ - configurable ui stuff like jira endpoint, etc
 
 
  
