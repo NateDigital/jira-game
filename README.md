@@ -1,5 +1,9 @@
 # Jira Game
 
+Master: [![CircleCI](https://circleci.com/gh/NateDigital/jira-game/tree/master.svg?style=svg)](https://circleci.com/gh/NateDigital/jira-game/tree/master) 
+Develop: [![CircleCI](https://circleci.com/gh/NateDigital/jira-game/tree/master.svg?style=svg)](https://circleci.com/gh/NateDigital/jira-game/tree/develop)
+
+
 A quick and dirty hack which has gone further than it should of.
 
 was originally intended to spit out a few numbers to STDOUT
