@@ -1,0 +1,89 @@
+/**
+ These are base styles used for the Vue Workshop, generally most of these would
+ be stored in their respective component's <style> block.
+**/
+@import url('https://fonts.googleapis.com/css?family=Codystar|Iceland|Indie+Flower|Monoton|Press+Start+2P|VT323|Wallpoet');
+
+// Your variable overrides
+$body-bg: #000;
+$body-color: #111;
+
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136
+);
+
+$enable-rounded: false;
+$enable-shadows: false;
+$enable-gradients: true;
+
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+.alert, .btn {
+  border-radius: 0px;
+}
+
+// .alert-info {
+.alert, .btn {
+  color: #00ff00;
+  background: none;
+  border: none;
+  // background: #001d07 -webkit-gradient(linear, left top, left bottom, from(#002500), to(#001d07)) repeat-x;
+  // background: #001d07 linear-gradient(180deg, #002500, #001d07) repeat-x;
+  // border-color: #005500;
+}
+.btn {
+  color: #aaaaaa;
+}
+
+/*     
+font-family: 'Indie Flower', cursive;
+font-family: 'VT323', monospace;
+font-family: 'Monoton', cursive;
+font-family: 'Press Start 2P', monospace;
+font-family: 'Wallpoet', cursive;
+font-family: 'Iceland', cursive;
+font-family: 'Codystar', cursive; 
+*/
+ 
+html, body {
+  color:greenyellow;
+  background-color: black;
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Press Start 2P', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  font-family: 'Press Start 2P', monospace;
+  /* font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  display: flex;
+  width:100%;
+  height:100%;
+  // height: 100vh;
+  overflow: scroll;
+}
+
+
+h1 {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 0.4em;
+  position: relative;
+}
+
+
+
+
+
+

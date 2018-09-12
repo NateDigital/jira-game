@@ -1,0 +1,6 @@
+{
+    "name": "jira-game",
+    "description": "A game for jira",
+    "repository": "https://github.com/nmors/jira-game",
+    "keywords": ["node", "express", "heroku", "jira", "game"]
+  }

@@ -1,0 +1,14 @@
+{
+  "name": "jira-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build-frontend && npm run start-server",
+    "start-server": "cd server && npm i && npm start && cd -",
+    "build-frontend": "cd client && npm i && npm run build && cd -",
+    "start-all": "./start.sh"
+  },
+  "author": "Nathan Pickworth",
+  "license": "UNLICENCED"
+}

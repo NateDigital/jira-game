@@ -1,0 +1,36 @@
+
+  .table {
+    background-color: none;
+}
+table {
+  background-color: none;
+}
+
+  .board {
+    position: relative;
+  }
+  
+  table, thead, tbody, tr, td, th {
+    border-color: #030;
+  }
+  
+  .table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #010;
+  }
+  
+  tbody, tr, td {
+    color: #efe;
+  }
+  
+  table thead th {
+    vertical-align: bottom;
+    // border-bottom: 2px solid #dee2e6;
+    border: none;
+  }
+  .table thead th {
+    vertical-align: bottom;
+    // border-bottom: 2px solid #dee2e6;
+    border: none;
+  }

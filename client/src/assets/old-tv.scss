@@ -1,0 +1,55 @@
+
+.old-tv-screen {
+// #app {
+    margin: 0px 0%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    // width: 200px;
+    // height: 150px;
+    width:100%;
+    height:100%;
+    position: relative;
+    border: none;
+    -webkit-border-radius: 50% / 10%;
+    border-radius: 50% / 10%;
+    text-align: center;
+    text-indent: 0.1em;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #1b1f1b;
+    // margin-left:10px;
+    // margin-right:10px;
+    // margin-left:10px;
+    // margin-right:10px;
+  }
+  .old-tv-screen-wrapper {
+    width:90vw;
+    height:100vh;
+    margin: 0 5%;
+    // overflow: scroll;
+  }
+
+.old-tv-screen::before {
+//   #app::before {
+    // margin: 0% 0%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: absolute;
+    content: "";
+    top: 9.5%;
+    right: -5%;
+    bottom: 9.5%;
+    left: -5%;
+    border: none;
+    -webkit-border-radius: 5% / 50%;
+    border-radius: 5% / 50%;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #1b1f1b;
+    text-shadow: none;
+    // margin-left:10px;
+    // margin-right:10px;
+    // width:100vw;
+  }
