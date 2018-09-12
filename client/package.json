@@ -1,8 +1,9 @@
 {
   "name": "jira-game-client",
   "version": "1.0.0",
-  "description": "Jira Game",
+  "description": "Jira Game Frontend",
   "author": "Nathan Pickworth",
+  "repository": "https://github.com/NateDigital/jira-game",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

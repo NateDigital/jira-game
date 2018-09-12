@@ -7,10 +7,11 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          - v1-dependencies-
+          - v1-client-dependencies-{{ checksum "client/package.json" }}
+          - v1-client-dependencies-
 
       - run: npm run build-frontend
 
@@ -18,6 +19,11 @@ jobs:
           paths:
             - client/node_modules
           key: v1-client-dependencies-{{ checksum "client/package.json" }}
+
+      - restore_cache:
+          keys:
+          - v1-server-dependencies-{{ checksum "server/package.json" }}
+          - v1-server-dependencies-
 
       - run: npm run build-server
 

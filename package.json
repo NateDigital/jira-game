@@ -1,8 +1,9 @@
 {
   "name": "jira-game",
   "version": "1.0.0",
-  "description": "",
+  "description": "jira-game repo",
   "main": "index.js",
+  "repository": "https://github.com/NateDigital/jira-game",
   "scripts": {
     "start": "npm run build-frontend && npm run build-server && npm run start-server",
     "start-server": "cd server && npm start && cd -",
